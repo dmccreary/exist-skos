@@ -1,13 +1,13 @@
 <concept xmlns="http://www.w3.org/2004/02/skos/core#" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:wf="http://example.com/publishing-workflow/">
-    <id>3</id>
-    <prefLabel>Key Value Store</prefLabel>
-    <altLabel>Key Value Database</altLabel>
-    <definition>A type of NoSQL database that stores data in key-value pairs.  Keys are strings and values are any type of data such as text or binary.</definition>
+    <id>5</id>
+    <prefLabel>Graph Store</prefLabel>
+    <altLabel>Graph Database</altLabel>
+    <definition>A type of NoSQL database that stores data in graphs.  Used where relationships are important.</definition>
     <member>Glossary</member>
     <broader id="1">NoSQL</broader>
-    <note>They are many types of key-value stores.</note>
-    <history-note>The term became popular around 2009 with a series of Meetups for people that were not using RDBSM.</history-note>
-    <mapping-relation/>
+    <narrower id="6">Triple Store</narrower>
+    <note>They are many types of graph stores.</note>
+    <history-note>Graph stores go back to network databases.</history-note>
     <dct:created>2000-07-20T00:00:00</dct:created>
     <dct:creator>dmccreary</dct:creator>
     <dct:modified>2008-06-28T16:40:50.7</dct:modified>
