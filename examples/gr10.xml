@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xygr SYSTEM "xygr.dtd">
+<xygr xmlns="http://graph2svg.googlecode.com"
+		axesPos="origin" colorScheme="color" lineType="dash" pointType="square"
+	xAxisDivision="1" yAxisDivision="5" xGrid="none" yGrid="none" legend="left"
+	>
+	<title color="red">Legenda a jmena krivek</title>
+	<curve>
+		<name x="5" y="10" visibility="legend">čestný pokus</name>
+		<point x="1" y="2"/>
+		<point x="5" y="10"/>
+	</curve>
+	<curve lineType="dash">
+		<point x="1" y="-4"/>
+		<point x="4" y="-5"/>
+	</curve>
+	<curve lineType="dash-dot">
+		<name x="5" y="4">třetí křivka</name>
+		<point x="2" y="3"/>
+		<point x="5" y="4"/>
+	</curve>
+	<curve lineType="dot">
+		<name color="black" visibility="none">čtvrtá</name>
+		<point x="-2" y="-3"/>
+		<point x="-5" y="-4"/>
+	</curve>
+	<curve lineType="dash-dot-dot">
+		<name x="2" y="-2" visibility="graph">posledni</name>
+		<point x="2" y="-3"/>
+		<point x="5" y="-4"/>
+	</curve>
+</xygr>

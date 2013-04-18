@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE osgr SYSTEM "osgr.dtd"-->
+<osgr colorScheme="warm" labelIn="percent" labelOut="name" 
+		yAxisDivision="2"  xAxisDivision="none" pointType="circle" effect="3D"
+		xAxisPos="botom"
+		>
+	<title>Pokusný graf číslo 4 - sloupce</title>
+	<names>
+		<name>Leden</name>
+		<name>Únor</name>
+	     <name>Březen</name>
+	     <name>Duben</name>
+		<name>Květen</name>
+    </names>
+    <values>
+            <value>12</value>
+            <value>6</value>
+            <value>3</value>
+            <value>12</value>
+            <value>24</value>
+    </values>
+</osgr>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE osgr SYSTEM "osgr.dtd">
+<osgr graphType="pie" legend="right" colorScheme="warm" labelIn="percent">
+	<title>Tržby (v tisících Kč)</title>
+	<names>
+		<name>pondělí</name>
+		<name>úterý</name>
+	     <name>středa</name>
+	     <name>čtvrtek</name>
+		<name>pátek</name>
+    </names>
+    <values>
+            <value>12.5</value>
+            <value color="blue">10.1</value>
+            <value>5.8</value>
+            <value>9.7</value>
+            <value>16</value>
+    </values>
+</osgr>

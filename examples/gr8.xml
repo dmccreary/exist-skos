@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xygr SYSTEM "xygr.dtd">
+<xygr xmlns="http://graph2svg.googlecode.com"
+		yAxeType="shifted" legend="right" colorScheme="color" lineType="solid">
+	<title>Značky a jejich dědičnost, lT=solid</title>
+	
+	<curve  pointType="none" lineType="dash-dash">
+		<name visibility="legend">pT=none lT=dash-dash</name>
+		<point x="10" y="75"/>
+		<point x="15" y="75"/>
+		<point x="20" y="75"/>
+		<point x="25" y="75"/>
+		<point x="30" y="75"/>
+		<point x="35" y="75"/>
+		<point x="40" y="75"/>
+		<point x="45" y="75"/>
+		<point x="50" y="75"/>		
+	</curve>
+	<curve  pointType="none" lineType="dash-dot">
+		<name visibility="legend">pT=none lT=dash-dot</name>
+		<point x="10" y="70" pointType="none"/>
+		<point x="15" y="70"/>
+		<point x="20" y="70" pointType="point"/>
+		<point x="25" y="70" pointType="cross"/>
+		<point x="30" y="70" pointType="plus"/>
+		<point x="35" y="70" pointType="star"/>
+		<point x="40" y="70" pointType="square"/>
+		<point x="45" y="70" pointType="circle"/>
+		<point x="50" y="70" pointType="triangle"/>		
+	</curve>
+	<curve color="black">
+		<name visibility="legend">color=black</name>
+		<point x="10" y="65" pointType="none"/>
+		<point x="15" y="65"/>
+		<point x="20" y="65" pointType="point"/>
+		<point x="25" y="65" pointType="cross"/>
+		<point x="30" y="65" pointType="plus" color="black"/>
+		<point x="35" y="65" pointType="star"/>
+		<point x="40" y="65" pointType="square"/>
+		<point x="45" y="65" pointType="circle"/>
+		<point x="50" y="65" pointType="triangle"/>		
+	</curve>
+	<curve pointType="blabla" >
+		<name visibility="legend">pT=blabla</name>
+		<point x="10" y="60" pointType="none"/>
+		<point x="15" y="60"/>
+		<point x="20" y="60" pointType="point"/>
+		<point x="25" y="60" pointType="cross"/>
+		<point x="30" y="60" pointType="plus" color="black"/>
+		<point x="35" y="60" pointType="star"/>
+		<point x="40" y="60" pointType="square"/>
+		<point x="45" y="60" pointType="circle"/>
+		<point x="50" y="60" pointType="triangle"/>		
+	</curve>
+		<curve pointType="circle" lineType="none">
+		<name visibility="legend">pT=circle lT=none</name>
+		<point x="10" y="55" pointType="none"/>
+		<point x="15" y="55"/>
+		<point x="20" y="55" pointType="point"/>
+		<point x="25" y="55" pointType="cross"/>
+		<point x="30" y="55" pointType="plus" color="black"/>
+		<point x="35" y="55" pointType="star"/>
+		<point x="40" y="55" pointType="square"/>
+		<point x="45" y="55" pointType="circle"/>
+		<point x="50" y="55" pointType="triangle"/>		
+	</curve>
+	<curve pointType="point" >
+		<name visibility="legend">pT=point</name>
+		<point x="10" y="50" pointType="none"/>
+		<point x="15" y="50"/>
+		<point x="20" y="50" pointType="point"/>
+		<point x="25" y="50" pointType="cross"/>
+		<point x="30" y="50" pointType="plus" color="black"/>
+		<point x="35" y="50" pointType="star"/>
+		<point x="40" y="50" pointType="square"/>
+		<point x="45" y="50" pointType="circle"/>
+		<point x="50" y="50" pointType="triangle"/>		
+	</curve>
+</xygr>

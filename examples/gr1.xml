@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msgr SYSTEM "msgr.dtd">
+<msgr xmlns="http://graph2svg.googlecode.com"
+		colType="block" legend="right" xAxisDivision="both" shift="0" yAxisDivision="5"
+			pointType="star" colorScheme="color" xGrid='both' yGrid='minor' effect='3D' lineType="none" fillArea="yes">
+	<title>Pokusný graf číslo 1</title>
+	<values pointType="circle" lineType="none">
+		<title>náklady jinačí</title>
+             <value>14</value>
+            <value>18</value>
+            <value>-25</value>
+    </values>
+	<names>
+		<name>Leden</name>
+		<name>Únor</name>
+	     <name>Březen</name>
+	     <name>Duben</name>
+	     <name>Květen</name>
+	     <name>Červen</name>
+	     <name>Červenec</name>
+	     <name>Srpen</name>
+	     <name>Září</name>
+		<name>Říjen</name>
+		<name>Listopad</name>
+		<name>Prosinec</name>
+    </names>
+	<values >
+		<value>15</value>
+            <value>16</value>
+            <value>20</value>
+            <value>23</value>
+            <value>21</value>
+            <value>15</value>
+            <value>14</value>
+            <value>18</value>
+            <value>19</value>
+            <value>23</value>
+            <value>28</value>
+            <value>29</value>
+		<value>10</value>
+		<value>11</value>
+		<value>12</value>
+    </values>
+	
+    <values   lineType="dash-dot" >
+            <title>tržby</title>
+            <value>18</value>
+            <value>18</value>
+            <value>21</value>
+            <value>22</value>
+            <value>23</value>
+            <value>16</value>
+            <value>18</value>
+            <value>20</value>
+            <value>23</value>
+            <value>27</value>
+            <value>31</value>
+    </values>
+	<values pointType="cross"  >
+            <title>tržby</title>
+            <value>28</value>
+            <value>28</value>
+            <value>30</value>
+            <value>30</value>
+            <value>20</value>
+            <value>20</value>
+            <value>20</value>
+            <value>25</value>
+            <value>29</value>
+            <value>31</value>
+            <value>35</value>
+            <value>33</value>
+		<value>33</value>
+    </values>
+</msgr>

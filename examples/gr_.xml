@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE msgr SYSTEM "msgr.dtd"-->
+<msgr xmlns="http://graph2svg.googlecode.com"
+		colorScheme="black" lineType="none">
+	<title>Tržby za jednotlivé výrobky (tis. Kč)</title>
+	<names>
+		<name>Červenec</name>
+		<name>Srpen</name>
+		<name>Září</name>
+		<name>Říjen</name>
+		<name>Listopad</name>
+		<name>Prosinec</name>
+    </names>
+    <values colType="block" color="#888">
+		<title>tržby</title>
+		<value>18</value>
+		<value>21</value>
+		<value>22</value>
+		<value>23</value>
+		<value>21</value>
+		<value>20</value>
+    </values>
+	<values>
+		<title>odchylka start</title>
+		<value>17</value>
+		<value>19</value>
+		<value>19.7</value>
+		<value>21.4</value>
+		<value>19.4</value>
+		<value>19.5</value>
+    </values>
+	<values colType="line" startFrom="last">
+		<title>odchylka end</title>
+		<value>19</value>
+		<value>21.9</value>
+		<value>23.1</value>
+		<value>24.8</value>
+		<value>22.8</value>
+		<value>21.1</value>
+    </values>
+	<values pointType="minus">
+		<title>středni hodnota</title>
+		<value>17.8</value>
+		<value>20.5</value>
+		<value>21.8</value>
+		<value>23.4</value>
+		<value>20.35</value>
+		<value>20.25</value>
+    </values>
+</msgr>

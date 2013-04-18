@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xygr SYSTEM "xygr.dtd">
+<xygr xmlns="http://graph2svg.googlecode.com"
+		pointType="circle" colorScheme="cold">
+	<title>Pokusný graf číslo 1</title>
+	<curve color="black">
+		<name x="50" y="33" color="black">funkce</name>
+		<point x="50" y="32"/>
+		<point x="55" y="31"/>
+		<point x="60" y="29"/>
+		<point x="65" y="26"/>
+		<point x="70" y="22"/>
+		<point x="75" y="17"/>
+		<point x="80" y="11"/>
+		<point x="85" y="4"/>
+		<point x="90" y="-4"/>
+		<point x="95" y="-13"/>
+	</curve>
+	<curve>
+		<point x="60" y="15"/>
+		<point x="70" y="6"/>
+		<point x="80" y="0"/>
+		<point x="90" y="6"/>
+		<point x="100" y="15"/>
+		<point x="90" y="24"/>
+		<point x="80" y="30"/>
+	</curve>
+	<curve>
+		<point x="42" y="15"/>
+		<point x="15" y="6"/>
+		<point x="14" y="0"/>
+		<point x="-8" y="6"/>
+		<point x="-20" y="-10"/>
+		<point x="-35" y="-24"/>
+		<point x="-28" y="-30"/>
+	</curve>
+	<curve>
+		<point x="10" y="25"/>
+		<point x="14" y="20"/>
+	</curve>
+	<curve>
+		<point x="20" y="35"/>
+		<point x="24" y="30"/>
+	</curve>
+	<curve>
+		<point x="30" y="45"/>
+		<point x="34" y="40"/>
+	</curve>
+</xygr>

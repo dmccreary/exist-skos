@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xygr SYSTEM "xygr.dtd">
+<xygr xmlns="http://graph2svg.googlecode.com"
+		xAxisType="log" xGrid="minor" xAxisDivision="4" pointType="point" xAxeType="shifted" colorScheme="cold"
+	yAxisType="log" yGrid="minor" yAxisDivision="5" axesPos="left-botom">
+<title>Pokusný graf číslo 11</title>
+<curve color="black">
+<point x="0.0005" y="90000"/>
+<point x="0.008" y="10000"/>
+<point x="0.02" y="4000"/>
+<point x="0.3" y="90"/>
+<point x="0.95" y="1"/>
+<point x="10" y="10"/>
+<point x="100" y="120"/>
+<point x="5000" y="1250"/>
+<point x="9800" y="8000"/>
+<point x="40000" y="15000"/>
+</curve>
+</xygr>

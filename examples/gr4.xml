@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msgr SYSTEM "msgr.dtd">
+<msgr xmlns="http://graph2svg.googlecode.com"
+		colType="block" legend="top" xAxisDivision="both" shift="0" yAxisDivision="4"
+			colorScheme="cold" xGrid='both' yGrid='major' effect='3D'  lineType="none"
+			stacked="percentage"
+
+>
+	<title>Pokusný graf číslo 4 - sloupce</title>
+	<names>
+		<name>Leden</name>
+		<name>Únor</name>
+	     <name>Březen</name>
+	     <name>Duben</name>
+	     <name>Květen</name>
+    </names>
+
+	
+    <values pointType="cross" lineType="solid">
+            <title>tržby</title>
+            <value>20</value>
+            <value>18</value>
+            <value>21</value>
+            <value>22</value>
+            <value>20</value>
+    </values>
+	<values lineType="dash" fillArea="yes">
+            <title>vklady</title>
+            <value>-10</value>
+            <value>18</value>
+            <value>10</value>
+            <value>10</value>
+            <value>-30</value>
+    </values>
+	<values >
+		<value>15</value>
+            <value>16</value>
+            <value>20</value>
+            <value>23</value>
+            <value>25</value>
+    </values>
+</msgr>

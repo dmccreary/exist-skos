@@ -1,0 +1,17 @@
+<osgr xmlns="http://graph2svg.googlecode.com" colorScheme="warm" labelIn="percent">
+    <title>Revenues (in thousands €)</title>
+    <names>
+        <name>Mon</name>
+        <name>Tue</name>
+        <name>Wed</name>
+        <name>Thu</name>
+        <name>Fri</name>
+    </names>
+    <values>
+        <value>12.5</value>
+        <value color="blue">10.1</value>
+        <value>5.8</value>
+        <value>9.7</value>
+        <value>16</value>
+    </values>
+</osgr>

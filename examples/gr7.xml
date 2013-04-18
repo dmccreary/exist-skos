@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xygr SYSTEM "xygr.dtd">
+<xygr xmlns="http://graph2svg.googlecode.com"
+		xAxeType="shifted" yAxeType="shifted" 
+	colorScheme="warm" lineType="solid"
+	pointType="none">
+	<title>Značky a typy čar</title>
+	<curve pointType="point" >
+		<point x="10" y="120" pointType="none"/>
+		<point x="15" y="120"/>
+		<point x="20" y="169" pointType="point"/>
+		<point x="25" y="19" pointType="cross"/>
+		<point x="30" y="19" pointType="plus"/>
+		<point x="35" y="19" pointType="star"/>
+		<point x="40" y="19" pointType="square"/>
+		<point x="45" y="19" pointType="circle"/>
+		<point x="50" y="19" pointType="triangle"/>		
+	</curve>
+	<curve pointType="point" >
+		<point x="10" y="120"/>
+		<point x="25" y="120"/>
+		<point x="30" y="169"/>
+		<point x="50" y="19"/>
+	</curve>
+	<curve pointType="none" >
+		<point x="10" y="220"/>
+		<point x="25" y="220"/>
+		<point x="30" y="269"/>
+		<point x="50" y="29"/>
+	</curve>
+	<curve pointType="cross" lineType="dash">
+		<point x="10" y="320"/>
+		<point x="25" y="320" pointType="point" color="black"/>
+		<point x="30" y="369" pointType="plus" color="black"/>
+		<point x="50" y="39" color="black"/>
+	</curve>
+	<curve pointType="plus" >
+		<point x="10" y="420"/>
+		<point x="25" y="420" pointType="pl" color="black"/>
+		<point x="30" y="469" pointType="point" color="blaasdfck"/>
+		<point x="50" y="49"/>
+	</curve>
+	<curve pointType="star" lineType="none">
+		<point x="10" y="520"/>
+		<point x="25" y="520" pointType="circle"/>
+		<point x="30" y="569"/>
+		<point x="50" y="59"/>
+	</curve>
+	<curve pointType="square" lineType="dot">
+		<point x="10" y="620"/>
+		<point x="25" y="620" pointType="circle"/>
+		<point x="30" y="669"/>
+		<point x="50" y="69"/>
+	</curve>
+	<curve pointType="circle" >
+		<point x="10" y="720"/>
+		<point x="25" y="720"/>
+		<point x="30" y="769"/>
+		<point x="50" y="79"/>
+	</curve>
+	<curve pointType="triangle" >
+		<point x="10" y="820"/>
+		<point x="25" y="820"/>
+		<point x="30" y="869"/>
+		<point x="50" y="89"/>
+	</curve>
+	<curve pointType="circle" >
+		<point x="10" y="920"/>
+		<point x="25" y="920" pointType="square"/>
+		<point x="30" y="969" pointType="none"/>
+		<point x="50" y="99"/>
+	</curve>
+</xygr>

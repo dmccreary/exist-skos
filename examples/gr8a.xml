@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xygr SYSTEM "xygr.dtd">
+<xygr xmlns="http://graph2svg.googlecode.com">
+	<title>Srovnání značek</title>
+	<curve color="yellow">
+		<point x="10" y="50" color="black" pointType="none"/>
+		<point x="15" y="55" color="black" pointType="point"/>
+		<point x="20" y="59" color="black" pointType="cross"/>
+		<point x="25" y="62" color="black" pointType="plus"/>
+		<point x="30" y="64" color="black" pointType="star"/>
+		<point x="35" y="65" color="black" pointType="square"/>
+		<point x="40" y="65" color="black" pointType="circle"/>
+		<point x="45" y="64" color="black" pointType="triangle"/>
+		<point x="50" y="62" color="black" pointType="rhomb"/>		
+		<point x="55" y="59" color="black" pointType="pyramid"/>		
+		<point x="60" y="55" color="black" pointType="squareF"/>
+		<point x="65" y="50" color="black" pointType="circleF"/>
+		<point x="70" y="44.5" color="black" pointType="triangleF"/>
+		<point x="75" y="38.5" color="black" pointType="rhombF"/>		
+		<point x="80" y="32" color="black" pointType="pyramidF"/>		
+	</curve>
+</xygr>

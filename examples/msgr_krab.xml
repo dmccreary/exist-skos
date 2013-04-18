@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msgr SYSTEM "msgr.dtd">
+<msgr xmlns="http://graph2svg.googlecode.com"
+		colorScheme="black" lineType="none" legend="none"
+	yAxisDivision="5" yGrid="minor" xGrid="minor">
+	<title>Krabičkové diagramy</title>
+	<names>
+		<name>1</name>
+		<name>2</name>
+	     <name>3</name>
+	     <name>4</name>
+	     <name>5</name>
+		<name>6</name>
+    </names>
+	<values pointType="minus">
+		<title>pointType="minus"</title>
+		<value>0.15</value>
+		<value>0.156</value>
+		<value>0.166</value>
+		<value>0.126</value>
+		<value>0.113</value>
+		<value>0.135</value>
+    </values>
+	<values  pointType="minus" colType="line" startFrom="last">
+		<title>pointType="minus" colType="line" startFrom="last"</title>
+		<value>0.242</value>
+		<value>0.255</value>
+		<value>0.28</value>
+		<value>0.27</value>
+		<value>0.253</value>
+		<value>0.28</value>
+    </values>
+   	<values>
+		<title>nic</title>
+		<value>0.18</value>
+		<value>0.196</value>
+		<value>0.198</value>
+		<value>0.15</value>
+		<value>0.15</value>
+		<value>0.185</value>
+    </values>
+	<values colType="block" startFrom="last" color="#fff">
+		<title>colType="block" startFrom="last" color="#fff"</title>
+		<value>0.21</value>
+		<value>0.215</value>
+		<value>0.241</value>
+		<value>0.24</value>
+		<value>0.23</value>
+		<value>0.258</value>
+    </values>
+	<values pointType="cross">
+		<title> pointType="cross"</title>
+		<value>0.202</value>
+		<value>0.205</value>
+		<value>0.215</value>
+		<value>0.197</value>
+		<value>0.20</value>
+		<value>0.20</value>
+    </values>
+</msgr>

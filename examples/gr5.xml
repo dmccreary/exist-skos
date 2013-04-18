@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xygr SYSTEM "xygr.dtd">
+<xygr xmlns="http://graph2svg.googlecode.com"
+		xAxeType="auto" pointType="circle" 
+	colorScheme="color" lineType="none">
+	<title>Typy čar, colSch=color</title>
+	<curve lineType="none">
+		<point x="0" y="10"/>
+		<point x="10" y="0"/>
+	</curve>
+	<curve lineType="solid">
+		<point x="0" y="20"/>
+		<point x="20" y="0"/>
+	</curve>
+	<curve lineType="dot">
+		<point x="0" y="30"/>
+		<point x="30" y="0"/>
+	</curve>
+	<curve lineType="dash">
+		<point x="0" y="40"/>
+		<point x="40" y="0"/>
+	</curve>
+	<curve  lineType="longDash">
+		<point x="0" y="50"/>
+		<point x="50" y="0"/>
+	</curve>
+	<curve lineType="dash-dot">
+		<point x="0" y="60"/>
+		<point x="60" y="0"/>
+	</curve>
+	<curve lineType="longDash-dot">
+		<point x="0" y="70"/>
+		<point x="70" y="0"/>
+	</curve>
+	<curve lineType="dash-dot-dot">
+		<point x="0" y="80"/>
+		<point x="80" y="0"/>
+	</curve>
+	<curve lineType="dash-dash-dot-dot">
+		<point x="0" y="90"/>
+		<point x="90" y="0"/>
+	</curve>
+	<curve lineType="longDash-dash">
+		<point x="0" y="100"/>
+		<point x="100" y="0"/>
+	</curve>
+	<curve lineType='blbost'>
+		<point x="0" y="110"/>
+		<point x="110" y="0"/>
+	</curve>
+	<curve>
+		<point x="0" y="120"/>
+		<point x="120" y="0"/>
+	</curve>
+	<curve>
+		<point x="0" y="130"/>
+		<point x="130" y="0"/>
+	</curve>
+	<curve>
+		<point x="0" y="140"/>
+		<point x="140" y="0"/>
+	</curve>
+	<curve>
+		<point x="0" y="150"/>
+		<point x="150" y="0"/>
+	</curve>
+</xygr>

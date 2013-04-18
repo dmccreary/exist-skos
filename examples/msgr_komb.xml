@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msgr SYSTEM "msgr.dtd">
+<msgr xmlns="http://graph2svg.googlecode.com"
+		lineType="none" effect="3D" xGrid="minor" colorScheme="grey"
+	yGrid="major">
+	<title>Podíl na trhu v ČR (mil. Kč)</title>
+	<names>
+		<name>Leden</name>
+		<name>Únor</name>
+		<name>Březen</name>
+		<name>Duben</name>
+		<name>Květen</name>
+		<name>Červen</name>
+	</names>
+	<values fillArea="yes">
+		<title>celková spotřeba</title>
+		<value>2.8</value>
+		<value>2.6</value>
+		<value>2.98</value>
+		<value>3.4</value>
+		<value>3.5</value>
+		<value>4.1</value>
+	</values>
+	<values colType="block">
+		<title>spotřeba výrobků naší značky</title>
+		<value>1.4</value>
+		<value>1.4</value>
+		<value>1.6</value>
+		<value>1.95</value>
+		<value>2.4</value>
+		<value>2.94</value>
+	</values>
+	<values lineType="solid" pointType="rhombF">
+		<title>dovoz našich výrobků</title>
+		<value>0.8</value>
+		<value>0.75</value>
+		<value>0.95</value>
+		<value>0.7</value>
+		<value>0.63</value>
+		<value>0.56</value>
+	</values>
+</msgr>

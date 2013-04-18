@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sample XML instance of a SKOS Concept 
+     that uses SKOS as the default namespace with Dublin Core Elements for other metadata-->
+
+<!--  A concept is any idea or notion; a unit of thought.  In practice in a metadata registry we are using
+this to store business terminology with definitions for classification of data elements 
+Note that the "about" attribute is tricky.  How to make it semantic and "rest" full.  -->
+<concept
+    xlmns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:wf="http://example.com/publishing-workflow/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    rdf:about="http://example.com/terms/nosql">
+    
+    <!-- This is the concept ID assigned by the system when a record is created.  Usually a small integer. 
+         Technically this in an internal-oly id that can map to other dct:identifier elements.  -->
+    <id>1</id>
+    
+    <!-- this is the main label for this term.  Other labels can be used but for listings we us this one -->
+    <prefLabel>NoSQL</prefLabel>
+    
+    <definition>A type of database that includes non-SQL data stores.  Examples include key-value stores, graph stores and document stores.</definition>
+    
+    <!-- This tells us we are a member of the glossary collection of concepts -->
+    <member>Glossary</member>
+    
+    
+    <!-- This shows this term is part of the glossary of terms in the following book -->
+    <inScheme rdf:resource="http://manning.com/mccreary"></inScheme>
+    <!-- Zero to many altLables.  Use an input for now and we can add "language" attribtes in the future.  -->
+    <altLabel>Not Only SQL</altLabel>
+    <altLabel>No SQL</altLabel>
+   
+    
+    <!-- Zero to many broder terms.  Use an autofill with existing terms. ID references are optional to other terms in the vocabulary.  -->
+    <broader id="47">database</broader>
+    <broader id="54">persistence</broader>
+    
+    <!-- Zero to many narrower terms.  Use an autofill with existing terms.  -->
+    <narrower  id="47">row store</narrower>
+    <narrower  id="47">key-value store</narrower>
+    <narrower>column store</narrower>
+    <narrower>column family store</narrower>
+    <narrower>document store</narrower>
+    
+    <!-- Zero to many related terms -->
+    <related>persistence</related>
+    <!-- We can store synonyms, opposites and abbreviations in these elements. 
+         Need to be able to use <owl:sameAs rdf:resource="example.com/foo"/> in future version-->
+    
+    <!--  Notes are a generic area for storing text associated with the concept.  Might include examples and rules. Use a Textarea.-->
+    <note>NoSQL is not a product, a single pattern or an exclusive club.
+        NoSQL is not only about horizontally scalable architectures.
+        NoSQL is not only about clever use of caching, RAM or SSD.
+       </note>
+    
+    <!-- history note is about past versions of the concept. Use a Textarea.-->
+    <history-note>The term became popular around 2009 with a series of Meetups for people that were not using RDBSM.</history-note>
+    
+    <!-- not used here but could be used for mapping to other vocabularies like OWN etc. -->
+    <mapping-relation></mapping-relation>
+    
+    <!-- when the document was created -->
+    <dct:created>2000-07-20T00:00:00</dct:created>
+    <dct:creator>dmccreary</dct:creator>
+    <dct:modified>2008-06-28T16:40:50.7</dct:modified>
+    <dct:modified-by>dmccreary</dct:modified-by>
+    <dct:language>eng</dct:language>
+    
+    <!-- A few sample date events fields for metadata publishing workflow - could be wrappeed in an <events> element.  
+         Note that the ISO specs put the Representation Term as the Suffix -->
+    <!-- http://dublincore.org/documents/dcmi-terms/#terms-dateSubmitted -->
+    <wf:submittedDate>2012-01-15</wf:submittedDate>
+    <!--http://wiki.dublincore.org/index.php/User_Guide/Publishing_Metadata#dcterms:dateAccepted -->
+    <wf:acceptedDate>2012-01-25</wf:acceptedDate>
+    <!-- the date that the item went on the public web site -->
+    <wf:publishedDate>2012-01-25</wf:publishedDate>
+</concept>

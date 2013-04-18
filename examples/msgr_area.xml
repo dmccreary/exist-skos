@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msgr SYSTEM "msgr.dtd">
+<msgr xmlns="http://graph2svg.googlecode.com"
+		stacked="sum" lineType="none" fillArea="yes" colorScheme="cold">
+	<title>Produkce v 1. pololetí (ks.)</title>
+	<names>
+		<name>Leden</name>
+		<name>Únor</name>
+		<name>Březen</name>
+		<name>Duben</name>
+		<name>Květen</name>
+		<name>Červen</name>
+	</names>
+	<values>
+		<title>výrobek A</title>
+		<value>21</value>
+		<value>22</value>
+		<value>18</value>
+		<value>18</value>
+		<value>16</value>
+		<value>14</value>
+	</values>
+	<values>
+		<title>výrobek B</title>
+		<value>10</value>
+		<value>12</value>
+		<value>9</value>
+		<value>11</value>
+		<value>15</value>
+		<value>18</value>
+	</values>
+	<values>
+		<title>výrobek C</title>
+		<value>28</value>
+		<value>29</value>
+		<value>22</value>
+		<value>25</value>
+		<value>30</value>
+		<value>25</value>
+	</values>
+</msgr>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE msgr SYSTEM "msgr.dtd"-->
+<msgr xmlns="http://graph2svg.googlecode.com"
+		colorScheme="black" lineType="none">
+	<title>Tržby za jednotlivé výrobky (tis. Kč)</title>
+	<names>
+		<name>Červenec</name>
+		<name>Srpen</name>
+		<name>Září</name>
+		<name>Říjen</name>
+		<name>Listopad</name>
+		<name>Prosinec</name>
+    </names>
+    <values colType="block" color="#888">
+		<title>sloupce: colType="block" color="#888"</title>
+		<value>118</value>
+		<value>121</value>
+		<value>122</value>
+		<value>123</value>
+		<value>121</value>
+		<value>120</value>
+    </values>
+	<values>
+		<title>začátek úseček: nic</title>
+		<value>117</value>
+		<value>119</value>
+		<value>119.7</value>
+		<value>121.4</value>
+		<value>119.4</value>
+		<value>119.5</value>
+    </values>
+	<values colType="line" startFrom="last">
+		<title>konec ú.: colType="line" startFrom="last"</title>
+		<value>119</value>
+		<value>121.9</value>
+		<value>123.1</value>
+		<value>124.8</value>
+		<value>122.8</value>
+		<value>121.1</value>
+    </values>
+	<values pointType="minus">
+		<title>středni hodnota: pointType="minus"</title>
+		<value>117.8</value>
+		<value>120.5</value>
+		<value>121.8</value>
+		<value>123.4</value>
+		<value>120.35</value>
+		<value>120.25</value>
+    </values>
+</msgr>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xygr SYSTEM "xygr.dtd">
+<xygr xmlns="http://graph2svg.googlecode.com"
+		xAxisType="shifted" yAxisType="shifted" axesPos="Origin"
+	colorScheme="cold" lineType="solid" pointTyte="point"
+	>
+	<title>Osy</title>
+	<curve>
+		<point x="14" y="4.1567"/>
+		<point x="32.856000" y="-14"/>
+	</curve>
+</xygr>
